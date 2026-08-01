@@ -40,7 +40,7 @@ public class Program4Assign {
         }
         if(operator==3){
             double result= num1*num2;
-            System.out.println("Your Desiredoperation (*) is: "+result);
+            System.out.println("Your Desired clearoperation (*) is: "+result);
             System.out.println("Happy Coding!");
         }
         if(operator==4){
@@ -49,7 +49,7 @@ public class Program4Assign {
                     System.out.println("Second number don't be zero");
                 } else{
             double result= num1/num2;
-         System.out.println("Your Desiredoperation (/) is: "+result);
+         System.out.println("Your Desired operation (/) is: "+result);
             System.out.println("Happy Coding!");
                 }
         }else{
@@ -57,7 +57,7 @@ public class Program4Assign {
                 System.out.println("First number don't be zero");
             }
             double result1 =num2/num1;
-            System.out.println("Your Desiredoperation (/) is: "+result1);
+            System.out.println("Your Desired operation (/) is: "+result1);
             System.out.println("Happy Coding!");
         }
         }
@@ -67,7 +67,7 @@ public class Program4Assign {
                     System.out.println("Second number don't be zero");
                 } else{
             double result= num1%num2;
-         System.out.println("Your Desiredoperation (%) is: "+result);
+         System.out.println("Your Desired operation (%) is: "+result);
             System.out.println("Happy Coding!");
                 }
         }else{
@@ -75,7 +75,7 @@ public class Program4Assign {
                 System.out.println("First number don't be zero");
             } else{
             double result1 =num2%num1;
-            System.out.println("Your Desiredoperation (%) is: "+result1);
+            System.out.println("Your Desired operation (%) is: "+result1);
             System.out.println("Happy Coding!");
             }
         }
