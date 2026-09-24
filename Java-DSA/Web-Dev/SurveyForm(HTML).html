@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+</head>
+<body>
+    <!-- 1. The main title of the page -->
+    <h1 id="title">Developer Feedback Form</h1>
+    
+    <!-- 2. A short description explaining the purpose -->
+    <p id="description">Please fill out this form to help us improve.</p>
+
+    <!-- 3. The primary form container -->
+    <form id="survey-form">
+        
+        <!-- 4. Text input for Name with label -->
+        <label id="name-label" for="name">Name:</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+        <br><br>
+
+        <!-- 5. Email input with validation and label -->
+        <label id="email-label" for="email">Email:</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <!-- 6. Number input with range limitations and label -->
+        <label id="number-label" for="number">Age (optional):</label>
+        <input id="number" type="number" min="10" max="99" placeholder="Age">
+        <br><br>
+
+        <!-- 7. A functional dropdown selector -->
+        <label for="dropdown">Current Role:</label>
+        <select id="dropdown">
+            <option value="" disabled selected>Select current role</option>
+            <option value="student">Student</option>
+            <option value="job">Full Time Job</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+
+        <!-- 8. Radio Buttons (User can select only one) -->
+        <p>Would you recommend this to a friend?</p>
+        <label>
+            <input type="radio" name="recommend" value="definitely" checked> Definitely
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="recommend" value="maybe"> Maybe
+        </label>
+        <br><br>
+
+        <!-- 9. Checkboxes (User can select multiple choices) -->
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <label>
+            <input type="checkbox" name="prefer" value="front-end"> Front-end Projects
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="prefer" value="back-end"> Back-end Projects
+        </label>
+        <br><br>
+
+        <!-- 10. Multi-line Text Area for comments -->
+        <label for="comments">Any comments or suggestions?</label>
+        <br>
+        <textarea id="comments" name="comment" placeholder="Enter your comment here..."></textarea>
+        <br><br>
+
+        <!-- 11. Final Submit Button -->
+        <button id="submit" type="submit">Submit</button>
+
+    </form>
+
+    <!-- 12. Automated Test Widget Script (Required to run tests locally in browser) -->
+    <script src="https://freecodecamp.org"></script>
+</body>
+</html>

@@ -1,14 +1,9 @@
 first_name = 'John'
 last_name = 'Doe'
-
-# Concatining the first name an dlast name using '+' operator
-
 full_name = first_name + ' ' + last_name
 address = '123 Main Street'
 address += ', Apartment 4B'
 employee_age = 28
-
-# Having employee_age as an integer type we should have to explicitly change its type to string 
 employee_info = full_name + ' is ' + str(employee_age) + ' years old'
 print(employee_info)
 experience_years = 5
@@ -16,15 +11,9 @@ experience_info = 'Experience: ' + str(experience_years) + ' years'
 print(experience_info)
 position = 'Data Analyst'
 salary = 75000
-
-# Using f function to use the variable defined above inside the string 
-
 employee_card = f'Employee: {full_name} | Age: {employee_age} | Position: {position} | Salary: ${salary}'
 print(employee_card)
 employee_code = 'DEV-2026-JD-001'
-
-# Slicing the part of employee code in department
-
 department = employee_code[0:3]
 print(department)
 year_code = employee_code[4:8]

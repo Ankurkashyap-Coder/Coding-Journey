@@ -1,4 +1,4 @@
-class Program38Assign {
+class Solution {
     public static void main(String[] args) {
         
     }

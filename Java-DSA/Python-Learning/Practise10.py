@@ -34,5 +34,3 @@ print(desired_list)
 print(desired_list[1])
 desired_list.remove("Mac")
 print(desired_list)
-desired_list.remove[0]
-
