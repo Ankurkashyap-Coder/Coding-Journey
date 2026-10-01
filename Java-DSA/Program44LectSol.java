@@ -2,7 +2,7 @@
 // A SENTENCE CALLED PANAGRAM IF IT CONTAINS ALL ENGLISH ALPHABET 
 // LEET CODE QUESTION https://leetcode.com/problems/check-if-the-sentence-is-pangram/
 
-class Solution {
+class Program44LectSol {
     public boolean checkIfPangram(String sentence) {
         int count = 0;
         String change_sentence = sentence.toLowerCase();

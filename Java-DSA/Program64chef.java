@@ -5,6 +5,7 @@ class Program64chef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
+        // https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/RIP2000
        Scanner sc =new Scanner(System.in);
        System.out.println("Enter the number of 2000 notes you have.");
        if(sc.hasNextInt()){

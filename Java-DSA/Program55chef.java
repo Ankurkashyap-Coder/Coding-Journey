@@ -20,6 +20,7 @@ class Program55chef
 		         
 		                 if(x>=n){
 		                 int result = x - n;
+                         System.out.println("The result is:");
 		                 System.out.println(result);
 		                 }
 		             }
